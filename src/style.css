@@ -10,8 +10,7 @@ body {
   height: 400px;
   width: 250px;
   padding: 20px;
-  border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 15px;
   position: relative;
   display: flex;
   align-items: center;
@@ -24,6 +23,20 @@ body {
   left: 20px;
 }
 
+.topIconRed {
+  position: absolute;
+  font-size: 80px;
+  float: left;
+  color: red;
+}
+
+.bottomIconRed {
+  position: absolute;
+  font-size: 80px;
+  float: right;
+  color: red;
+}
+
 .bottomIcon {
   position: absolute;
   font-size: 80px;
@@ -32,7 +45,7 @@ body {
   transform: rotate(180deg);
 }
 
-.number {
+.numberCard {
   font-size: 80px;
   top: 34%;
   position: absolute;
