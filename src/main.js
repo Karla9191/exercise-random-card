@@ -8,9 +8,6 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   console.log(tipoCarta());
   console.log(numeroCarta());
-  document.getElementById("topIcon").innerHTML = tipoCarta();
-  document.getElementById("number").innerHTML = numeroCarta();
-  document.getElementById("bottomIcon").innerHTML = tipoCarta();
 };
 
 function tipoCarta() {
